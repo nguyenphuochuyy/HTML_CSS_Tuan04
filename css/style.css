@@ -1,0 +1,208 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 910px;
+    
+}
+
+#right {
+    width: 440px;
+    
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 40px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+#center .top div{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+#center
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#center .body
+{
+    margin-top: 50px;
+}
+.body .body_center
+{
+    margin-top: 25px;
+}
+.bottom img 
+{
+    margin: 30px 15px;
+}
+.bottom_end_meeting
+{
+    margin: 30px 15px;
+    font-size: 20px;
+    background-color: red;
+    padding: 13px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.icon img 
+{
+    width: 20px;
+    margin-left: 5px;
+
+}
+.top span{
+    color: white;
+}
+.right_top_low
+{
+    margin-top: 50px;
+}
+.user 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.user div 
+{
+    display: inline-block;
+
+}
+.chatting
+{
+    margin-top: 75px;
+}
+.chat_user
+{
+    position: relative;
+}
+.content span{
+    position: absolute;
+    top: 30%;
+    margin-left: 10px;
+}
+.content .time
+{
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 140px;
+}
+.content .massage
+{
+    left:45px;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: #DEDBD2;
+    opacity: 0.7;
+}
+.chat div 
+{
+    font-size: 25px;
+}
+.user_chat
+{
+    padding: 20px 20px;
+}
+.big_img{
+     width: 160px;
+     height: 40px ; 
+     background-color: #76777A;
+     position: absolute;
+     top: 10px;
+     left: 25px;
+     color: white;
+     border-radius: 5px;
+}
+.small_img
+{
+    width: 100px;
+    height: 25px ;
+    background-color: #76777A;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color: white;
+}
